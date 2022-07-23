@@ -32,11 +32,9 @@
 
 ### n+(n-1)+(n-2) …..+1 = (n^2-n)/2 ∈ O(n²) .Big O fonksiyonu katsayilardan bagimsiz ve dominat degeri baz alir bu durumda Big -O : O(n²)
  
-Worst case : Aradığımız sayının sonda olması =   (n^2-n)/2 ∈ O(n²) dir 
-
- Average case : Aradığımız sayının ortada olması =   (n^2-n)/4 ∈ O(n²) dir
-
- Best case : Bu algoritma için en iyi ihtimalle başlangıçta dizinin sıralı olmasıdır.  Böylelikle hiç yer değiştirme yapmadan sıralama bitecektir. O(n )
+ ## Worst case : Aradığımız sayının sonda olması =   (n^2-n)/2 ∈ O(n²) dir 
+ ## Average case : Aradığımız sayının ortada olması =   (n^2-n)/4 ∈ O(n²) dir
+## Best case : Bu algoritma için en iyi ihtimalle başlangıçta dizinin sıralı olmasıdır.  Böylelikle hiç yer değiştirme yapmadan sıralama bitecektir. O(n )
 
 
 ## 18 sayısı average case kapsamındadır. Listenin ortasindadir.
