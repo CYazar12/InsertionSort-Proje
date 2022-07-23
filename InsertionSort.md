@@ -4,17 +4,18 @@
 
 ## Ilk olarak listeyi tariyoruz  dizinin en kücük elemanini yerini en ön deki sayiyla yer degistiriyoruz
 
-### [2,27,16,22,18,6]  // 2 ile 22 nin yerini degistirdik. 2 artik basta ve sabit.
+### [2,27,16,22,18,6]  2 ile 22 nin yerini degistirdik. 2 artik basta ve sabit.
 
-### [2,6,16,22,18,27]  // 6 ile 27 nin yerini degistiriyoruz ve artik 2 ve 6 sabit.
+### [2,6,16,22,18,27]  6 ile 27 nin yerini degistiriyoruz ve artik 2 ve 6 sabit.
 
-### [2,6,16,22,18,27]  // 16 listenin geri kalanin en kücük elemani dolayisiyla artik 2, 6, 16  listenin önünde sabitleniyor.
+### [2,6,16,22,18,27]  16 listenin geri kalanin en kücük elemani dolayisiyla artik 2, 6, 16  listenin önünde sabitleniyor.
 
-### [2,6,16,18,22,27] // 18 ile 22 yer degistiriyor
+### [2,6,16,18,22,27] 18 ile 22 yer degistiriyor
 
-### [2,16,18,22,27] // 22 zaten 27 den kücük , liste dogru bir sekilde diziliyor.
+### [2,16,18,22,27]  22 zaten 27 den kücük , liste dogru bir sekilde diziliyor.
 
-## Big-O gösterimi
+## Big-O gösterimini su sekilde yapiyoruz :
+
 ### [22,27,16,2,18,6]
 
 ### [2| 27,16,22,18,6] n tane karsilastirma yapildi 
@@ -31,15 +32,13 @@
 
 ## Big O fonksiyonu katsayilardan bagimsiz ve dominat degeri baz alir bu durumda Big -O : O(n²)
  
-	* Worst case *: Aradığımız sayının sonda olması =   (n^2-n)/2 ∈ O(n²) dir 
+	 Worst case : Aradığımız sayının sonda olması =   (n^2-n)/2 ∈ O(n²) dir 
 
+     Average case : Aradığımız sayının ortada olması =   (n^2-n)/4 ∈ O(n²) dir
 
-   * Average case *: Aradığımız sayının ortada olması ==   (n^2-n)/4 ∈ O(n²) dir
-
-
-    * Best case *: Bu algoritma için en iyi ihtimalle başlangıçta dizinin sıralı olmasıdır. 
-    
-    Böylelikle hiç yer değiştirme yapmadan sıralama bitecektir. O(n )
+     Best case : Bu algoritma için en iyi ihtimalle başlangıçta dizinin sıralı olmasıdır. 
+     
+     Böylelikle hiç yer değiştirme yapmadan sıralama bitecektir. O(n )
 
 
 ## 18 sayısı average case kapsamındadır.
