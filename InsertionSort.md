@@ -1,6 +1,7 @@
 
-[Insertion Sort Proje](https://www.patika.dev)
-# [22,27,16,2,18,6] verilen dizinin Insertion Sort türüne göre aşamalarını yazıyoruz.
+# [Insertion Sort Proje](https://www.patika.dev)
+
+## [22,27,16,2,18,6] verilen dizinin Insertion Sort türüne göre aşamalarını yazıyoruz.
 
 ## Ilk olarak listeyi tariyoruz  dizinin en kücük elemanini yerini en ön deki sayiyla yer degistiriyoruz
 
