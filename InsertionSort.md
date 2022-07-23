@@ -1,5 +1,5 @@
 
-[Insertion Sort Proje] (https://www.patika.dev/)
+[Insertion Sort Proje](https://www.patika.dev)
 # [22,27,16,2,18,6]
 
 # Yukarı verilen dizinin Insertion Sort türüne göre aşamalarını yazıyoruz.
